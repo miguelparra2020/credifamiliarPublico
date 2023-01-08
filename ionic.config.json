@@ -1,0 +1,7 @@
+{
+  "name": "credifast",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
