@@ -1,5 +1,5 @@
 
-import { IonContent, IonHeader, IonPage, IonChip,IonAvatar, IonItem, IonCol, IonGrid, IonRow, IonIcon, IonTitle,IonButton,    } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonChip,IonAvatar, IonItem, IonCol, IonGrid, IonRow, IonIcon, IonTitle,IonButton, IonImg    } from '@ionic/react';
 import './Tab1.css';
 import { download } from 'ionicons/icons';
 
@@ -10,7 +10,7 @@ const Tab1: React.FC = () => {
       <IonHeader>
         <IonItem>
           <IonAvatar slot="start">
-            <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+            <IonImg alt="Imagen de la Empresa" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
           </IonAvatar>
           <IonTitle>Titulo de la empresa</IonTitle>
         </IonItem>
@@ -21,7 +21,7 @@ const Tab1: React.FC = () => {
         <IonGrid>
           <IonRow class="ion-justify-content-center">
             <IonCol></IonCol>
-            <IonCol size="10">
+            <IonCol size="12">
             <IonButton href="./AppDown" id='button_chip'>
               <IonChip color="success" >
               
@@ -39,10 +39,12 @@ const Tab1: React.FC = () => {
         </IonGrid>
         {/* Boton para descargar la app */}
         {/* Hero contenido de Bienvenida */}
+        <div id='hero_content'>
+        <div id='contenido_bienvenida'>
         <IonGrid>
           <IonRow class="ion-justify-content-center">
             <IonCol></IonCol>
-            <IonCol size="10">
+            <IonCol size="12" id='col_parrafo'>
             <span id='title_inicio'>Te vamos a ayudar 💵</span>
               <br /><br />
               <span id='parrafo_resaltado'>
@@ -52,6 +54,8 @@ const Tab1: React.FC = () => {
             <IonCol></IonCol>
           </IonRow>
         </IonGrid>
+        </div>
+        </div>
         {/* Hero contenido de Bienvenida */}
         {/* Iniciar Solicitud */}
         <IonGrid>
@@ -63,7 +67,10 @@ const Tab1: React.FC = () => {
           </IonRow>
         </IonGrid>
         {/* Boton para descargar la app */}
-        
+        {/* Imagen Hero */}
+          <IonImg src="https://res.cloudinary.com/ddllgbo70/image/upload/v1673224379/assets%20prestamos%20en%20linea/Hero_eqbsyx.jpg" alt="Imagen Hero"></IonImg>
+        {/* Imagen Hero */}
+
       </div>
       </IonContent>
     </IonPage>

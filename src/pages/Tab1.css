@@ -1,8 +1,19 @@
 ion-col {
     text-align: center;
+
 }
+
 #contenido{
     /* background-color: #f0f2f5; */
+}
+#hero_content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contenido_bienvenida{;
+    width: 80%;
 }
 #title_inicio{
     font-family: InterVariable, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -43,4 +54,15 @@ ion-col {
 
     --padding-top: 0px;
     --padding-bottom: 0px;
+}
+
+@media screen and (max-width: 900px){ 
+    #contenido_bienvenida{
+        width: 90%;
+    }
+}
+@media (max-width: 600px){ 
+    #contenido_bienvenida{
+        width: 100%;
+    }
 }
