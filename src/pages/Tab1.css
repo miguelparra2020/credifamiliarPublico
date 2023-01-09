@@ -24,3 +24,23 @@ ion-col {
     color:#4B5563;
     text-align: center;
 }
+#button_chip{
+    --background: #fff;
+    --background-hover: #fff;
+    --background-activated: #88f4be;
+    --background-focused: #88f4be;
+
+    --color: blue;
+
+    --border-radius: 0;
+    --border-color: #000;
+    --border-style: solid;
+    --border-width: 0px;
+
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0);
+
+    --ripple-color: deeppink;
+
+    --padding-top: 0px;
+    --padding-bottom: 0px;
+}

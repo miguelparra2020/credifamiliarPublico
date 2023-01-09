@@ -22,13 +22,17 @@ const Tab1: React.FC = () => {
           <IonRow class="ion-justify-content-center">
             <IonCol></IonCol>
             <IonCol size="10">
-              <IonChip color="success">
+            <IonButton href="./AppDown" id='button_chip'>
+              <IonChip color="success" >
+              
                 <IonTitle>
                   <IonIcon icon={download} /> 
                   &nbsp;&nbsp;
                   Descarga la app 
                 </IonTitle> 
+                
               </IonChip>
+              </IonButton>
             </IonCol>
             <IonCol></IonCol>
           </IonRow>
