@@ -1,7 +1,7 @@
 
 import { IonContent, IonHeader, IonPage, IonChip,IonAvatar, IonItem, IonCol, IonGrid, IonRow, IonIcon, IonTitle,IonButton, IonImg    } from '@ionic/react';
 import './Tab1.css';
-import { download } from 'ionicons/icons';
+import { download, flagOutline } from 'ionicons/icons';
 
 
 const Tab1: React.FC = () => {
@@ -70,7 +70,16 @@ const Tab1: React.FC = () => {
         {/* Imagen Hero */}
           <IonImg src="https://res.cloudinary.com/ddllgbo70/image/upload/v1673224379/assets%20prestamos%20en%20linea/Hero_eqbsyx.jpg" alt="Imagen Hero"></IonImg>
         {/* Imagen Hero */}
+        {/* Folosofía */}
+          <div id='filosofia'>
+              <div id='palabras_filosofia'>
+              <IonIcon icon={flagOutline}/> Filosofía: Simplicidad, precios bajos, rapidez en trámites
+              </div>
+          </div>
+        {/* Folosofía */}
+        <div>
 
+        </div>
       </div>
       </IonContent>
     </IonPage>
