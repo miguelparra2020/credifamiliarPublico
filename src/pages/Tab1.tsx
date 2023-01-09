@@ -1,7 +1,7 @@
 
 import { IonContent, IonHeader, IonPage, IonChip,IonAvatar, IonItem, IonCol, IonGrid, IonRow, IonIcon, IonTitle,IonButton, IonImg    } from '@ionic/react';
 import './Tab1.css';
-import {  caretDownCircleOutline, download, flagOutline } from 'ionicons/icons';
+import {  download, flagOutline } from 'ionicons/icons';
 
 
 const Tab1: React.FC = () => {
