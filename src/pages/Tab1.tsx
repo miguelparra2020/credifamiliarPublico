@@ -1,5 +1,5 @@
 
-import { IonContent, IonHeader, IonPage, IonChip,IonAvatar, IonItem, IonCol, IonGrid, IonRow, IonIcon, IonTitle,IonButton, IonImg    } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonChip,IonAvatar, IonToolbar , IonCol, IonGrid, IonRow, IonIcon, IonTitle,IonButton, IonImg    } from '@ionic/react';
 import './Tab1.css';
 import {  download, flagOutline } from 'ionicons/icons';
 
@@ -8,12 +8,12 @@ const Tab1: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonItem>
+      <IonToolbar>
           <IonAvatar slot="start">
             <IonImg alt="Imagen de la Empresa" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
           </IonAvatar>
           <IonTitle>Titulo de la empresa</IonTitle>
-        </IonItem>
+          </IonToolbar>
       </IonHeader>
       <IonContent fullscreen >
       <div id="contenido">
@@ -24,7 +24,6 @@ const Tab1: React.FC = () => {
                   <IonIcon icon={download} /> 
                   &nbsp;&nbsp;
                   Descarga la app 
-                
               </IonChip>
               </IonButton>
         </div>
