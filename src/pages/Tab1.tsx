@@ -10,6 +10,7 @@ import ImagenHero from '../components/Inicio/ImagenHero';
 import Filosofia from '../components/Inicio/filosofia';
 import BannerOpciones from '../components/Inicio/BannerOpciones';
 import Procesos from '../components/Inicio/Procesos';
+import Footer from '../components/Footer';
 
 
 const Tab1: React.FC = () => {
@@ -42,6 +43,9 @@ const Tab1: React.FC = () => {
         {/* proceso del prestamo */}
         <Procesos/>
         {/* proceso del prestamo */}
+        {/* Footer */}
+        <Footer/>
+        {/* Footer */}
         <div>
 
         </div>
