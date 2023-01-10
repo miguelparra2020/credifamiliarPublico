@@ -18,10 +18,7 @@ const Tab1: React.FC = () => {
       <IonContent fullscreen >
       <div id="contenido">
         {/* Boton para descargar la app */}
-        <IonGrid>
-          <IonRow class="ion-justify-content-center">
-            <IonCol></IonCol>
-            <IonCol size="12">
+        <div id='div_boton_descargar'>
             <IonButton href="./AppDown" id='button_chip'>
               <IonChip color="success" >
               
@@ -33,10 +30,7 @@ const Tab1: React.FC = () => {
                 
               </IonChip>
               </IonButton>
-            </IonCol>
-            <IonCol></IonCol>
-          </IonRow>
-        </IonGrid>
+        </div>
         {/* Boton para descargar la app */}
         {/* Hero contenido de Bienvenida */}
         <div id='hero_content'>
