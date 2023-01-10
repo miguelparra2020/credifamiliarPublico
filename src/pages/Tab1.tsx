@@ -9,8 +9,8 @@ const Tab1: React.FC = () => {
     <IonPage>
       <IonHeader>
       <IonToolbar>
-          <IonAvatar slot="start">
-            <IonImg alt="Imagen de la Empresa" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+          <IonAvatar slot="start" id='avatar'>
+            <IonImg alt="Imagen de la Empresa"  src="https://ionicframework.com/docs/img/demos/avatar.svg" />
           </IonAvatar>
           <IonTitle>Titulo de la empresa</IonTitle>
           </IonToolbar>
