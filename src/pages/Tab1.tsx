@@ -1,22 +1,20 @@
 
-import { IonContent, IonHeader, IonPage, IonChip,IonAvatar, IonToolbar , IonCol, IonGrid, IonRow, IonIcon, IonTitle,IonButton, IonImg    } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonChip, IonCol, IonGrid, IonRow, IonIcon, IonButton, IonImg    } from '@ionic/react';
 import './Tab1.css';
 import {  download, flagOutline } from 'ionicons/icons';
+import Toolbar from '../components/Toolbar';
 
 
 const Tab1: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-      <IonToolbar>
-          <IonAvatar slot="start" id='avatar'>
-            <IonImg alt="Imagen de la Empresa"  src="https://ionicframework.com/docs/img/demos/avatar.svg" />
-          </IonAvatar>
-          <IonTitle>Titulo de la empresa</IonTitle>
-          </IonToolbar>
+          <Toolbar/>
       </IonHeader>
       <IonContent fullscreen >
+        {/* Contenido Inicio */}
       <div id="contenido">
+      
         {/* Boton para descargar la app */}
         <div id='div_boton_descargar'>
             <IonButton href="./AppDown" id='button_chip'>
