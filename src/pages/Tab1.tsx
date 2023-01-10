@@ -1,8 +1,10 @@
 
-import { IonContent, IonHeader, IonPage, IonChip, IonCol, IonGrid, IonRow, IonIcon, IonButton, IonImg    } from '@ionic/react';
+import { IonContent, IonHeader, IonPage,  IonCol, IonGrid, IonRow, IonIcon, IonButton, IonImg    } from '@ionic/react';
 import './Tab1.css';
-import {  download, flagOutline } from 'ionicons/icons';
+import {   flagOutline } from 'ionicons/icons';
 import Toolbar from '../components/Toolbar';
+import DescargarApp from '../components/DescargarApp';
+import Bienvenida from '../components/Inicio/Bienvenida';
 
 
 const Tab1: React.FC = () => {
@@ -14,36 +16,11 @@ const Tab1: React.FC = () => {
       <IonContent fullscreen >
         {/* Contenido Inicio */}
       <div id="contenido">
-      
         {/* Boton para descargar la app */}
-        <div id='div_boton_descargar'>
-            <IonButton href="./AppDown" id='button_chip'>
-              <IonChip color="success" >
-                  <IonIcon icon={download} /> 
-                  &nbsp;&nbsp;
-                  Descarga la app 
-              </IonChip>
-              </IonButton>
-        </div>
+        <DescargarApp/>
         {/* Boton para descargar la app */}
         {/* Hero contenido de Bienvenida */}
-        <div id='hero_content'>
-        <div id='contenido_bienvenida'>
-        <IonGrid>
-          <IonRow class="ion-justify-content-center">
-            <IonCol></IonCol>
-            <IonCol size="12" id='col_parrafo'>
-            <span id='title_inicio'>Te vamos a ayudar 💵</span>
-              <br /><br />
-              <span id='parrafo_resaltado'>
-              Muchas veces vemos la necesidad de que alguien nos saque de un apuro y esas veces nos dan la espalda.</span> 
-              <span id='parrafo_normal'> Comprendemos que no siempre alcanzamos a cubrir los gastos en el mes o inclusive se nos presenta un evento con el que no contábamos, Nosotros trataremos de ayudarle, </span> <span id='parrafo_resaltado'>Te prestamos de una forma ágil, créditos salva vidas, tratamos de cobrar de una manera muy económica y adicional el trámite, el desembolso y los cobros son de manera virtual. "Te hacemos la vida fácil porque confiamos en tí..."</span>
-            </IonCol>
-            <IonCol></IonCol>
-          </IonRow>
-        </IonGrid>
-        </div>
-        </div>
+        <Bienvenida/>
         {/* Hero contenido de Bienvenida */}
         {/* Iniciar Solicitud */}
         <IonGrid>
