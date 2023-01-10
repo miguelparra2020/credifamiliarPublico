@@ -1,12 +1,13 @@
 
-import { IonContent, IonHeader, IonPage, IonIcon    } from '@ionic/react';
+import { IonContent, IonHeader, IonPage    } from '@ionic/react';
 import './Tab1.css';
-import {   flagOutline } from 'ionicons/icons';
+// import {   flagOutline } from 'ionicons/icons';
 import Toolbar from '../components/Toolbar';
 import DescargarApp from '../components/DescargarApp';
 import Bienvenida from '../components/Inicio/Bienvenida';
 import IniciarSolicitud from '../components/Inicio/IniciarSolicitud';
 import ImagenHero from '../components/Inicio/ImagenHero';
+import Filosofia from '../components/Inicio/filosofia';
 
 
 const Tab1: React.FC = () => {
@@ -31,11 +32,7 @@ const Tab1: React.FC = () => {
         <ImagenHero/>
         {/* Imagen Hero */}
         {/* Filosofía */}
-          <div id='filosofia'>
-              <div id='palabras_filosofia'>
-              <IonIcon icon={flagOutline}/> Filosofía: Simplicidad, precios bajos, rapidez en trámites
-              </div>
-          </div>
+        <Filosofia/>
         {/* Filosofía */}
         {/* brindar opciones banner */}
         <div id='banner_opciones'>

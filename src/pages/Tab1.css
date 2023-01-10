@@ -1,25 +1,7 @@
-#avatar{
-    width: 35px;
-    height: 35pX;
-}
 
 
 
-#filosofia{
-    background-color: #DBEAFE;
-    height: 70px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: InterVariable, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: -0.5px;
-    line-height: 30px;
-    text-decoration: none solid rgb(17, 24, 39);
-    text-align: center; 
-}
+
 #banner_opciones{
     background-color: #eff6ff;
     height: 60vh;
