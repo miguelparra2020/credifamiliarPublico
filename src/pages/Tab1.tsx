@@ -1,10 +1,12 @@
 
-import { IonContent, IonHeader, IonPage,  IonCol, IonGrid, IonRow, IonIcon, IonButton, IonImg    } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonIcon    } from '@ionic/react';
 import './Tab1.css';
 import {   flagOutline } from 'ionicons/icons';
 import Toolbar from '../components/Toolbar';
 import DescargarApp from '../components/DescargarApp';
 import Bienvenida from '../components/Inicio/Bienvenida';
+import IniciarSolicitud from '../components/Inicio/IniciarSolicitud';
+import ImagenHero from '../components/Inicio/ImagenHero';
 
 
 const Tab1: React.FC = () => {
@@ -23,17 +25,10 @@ const Tab1: React.FC = () => {
         <Bienvenida/>
         {/* Hero contenido de Bienvenida */}
         {/* Iniciar Solicitud */}
-        <IonGrid>
-          <IonRow >
-            <IonCol></IonCol>
-            <IonCol size="12">
-              <IonButton color="secondary" href="./Tab2">🚀 Solicitar crédito</IonButton>
-            </IonCol>
-          </IonRow>
-        </IonGrid>
+        <IniciarSolicitud/>
         {/* Boton para descargar la app */}
         {/* Imagen Hero */}
-          <IonImg src="https://res.cloudinary.com/ddllgbo70/image/upload/v1673224379/assets%20prestamos%20en%20linea/Hero_eqbsyx.jpg" alt="Imagen Hero"></IonImg>
+        <ImagenHero/>
         {/* Imagen Hero */}
         {/* Filosofía */}
           <div id='filosofia'>
