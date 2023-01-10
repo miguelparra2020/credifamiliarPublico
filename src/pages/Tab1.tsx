@@ -8,6 +8,7 @@ import Bienvenida from '../components/Inicio/Bienvenida';
 import IniciarSolicitud from '../components/Inicio/IniciarSolicitud';
 import ImagenHero from '../components/Inicio/ImagenHero';
 import Filosofia from '../components/Inicio/filosofia';
+import BannerOpciones from '../components/Inicio/BannerOpciones';
 
 
 const Tab1: React.FC = () => {
@@ -35,16 +36,7 @@ const Tab1: React.FC = () => {
         <Filosofia/>
         {/* Filosofía */}
         {/* brindar opciones banner */}
-        <div id='banner_opciones'>
-          <div id='banner_opciones_palabras'>
-              <div id='titulo_banner_opciones'>
-              Brindamos varias opciones de crédito
-              </div>
-              <div id='parrafo_banner_opciones'>
-              Puedes escoger la mejor opción que se ajuste a tu necesidad y capacidad de pago.
-              </div>
-          </div>
-        </div>
+        <BannerOpciones/>
         {/* brindar opciones banner */}
         {/* proceso del prestamo */}
           <div id='contenedor_proceso'>
