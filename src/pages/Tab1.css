@@ -33,8 +33,8 @@
     text-align: center;
 }
 #button_chip{
-    --background: #fff;
-    --background-hover: #fff;
+    --background: #88f4be;
+    --background-hover: #88f4be;
     --background-activated: #88f4be;
     --background-focused: #88f4be;
 

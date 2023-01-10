@@ -21,12 +21,9 @@ const Tab1: React.FC = () => {
         <div id='div_boton_descargar'>
             <IonButton href="./AppDown" id='button_chip'>
               <IonChip color="success" >
-              
-                <IonTitle>
                   <IonIcon icon={download} /> 
                   &nbsp;&nbsp;
                   Descarga la app 
-                </IonTitle> 
                 
               </IonChip>
               </IonButton>
