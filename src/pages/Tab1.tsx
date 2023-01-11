@@ -21,7 +21,6 @@ const Tab1: React.FC = () => {
       </IonHeader>
       <IonContent fullscreen >
         {/* Contenido Inicio */}
-      <div id="contenido">
         {/* Boton para descargar la app */}
         <DescargarApp/>
         {/* Boton para descargar la app */}
@@ -46,10 +45,6 @@ const Tab1: React.FC = () => {
         {/* Footer */}
         <Footer/>
         {/* Footer */}
-        <div>
-
-        </div>
-      </div>
       </IonContent>
     </IonPage>
   );

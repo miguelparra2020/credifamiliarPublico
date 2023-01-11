@@ -1,20 +1,33 @@
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonContent, IonHeader, IonPage,  IonToolbar,IonSlides, IonSlide } from '@ionic/react';
 import './Tab2.css';
+import Toolbar from '../components/Toolbar';
+
+const slideOpts = {
+  initialSlide: 0,
+  speed: 400
+};
 
 const Tab2: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Tab 2</IonTitle>
+        <Toolbar/>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Tab 2</IonTitle>
-          </IonToolbar>
-        </IonHeader>
+        <IonSlides pager={true} options={slideOpts}>
+        <IonSlide>
+        <h1>Slide 2</h1>
+      </IonSlide>
+      <IonSlide>
+        <h1>Slide 1</h1>
+      </IonSlide>
+      <IonSlide>
+        <h1>Slide 2</h1>
+      </IonSlide>
+      
+    </IonSlides>
       </IonContent>
     </IonPage>
   );
