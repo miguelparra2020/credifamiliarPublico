@@ -1,0 +1,75 @@
+#footer_content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#footer_terminos{
+    width: 80%;
+    
+}
+#footer_terminos_titulo{
+    font-family: InterVariable, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+    line-height: 30px;
+    text-decoration: none solid rgb(17, 24, 39);
+}
+#footer_terminos_parrafo{
+    font-family: InterVariable, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 17.5px;
+    letter-spacing: -0.5px;
+    line-height: 25px;
+    text-decoration: none solid rgb(75, 85, 99) ;
+}
+
+ion-button {
+    --background: #fff;
+    --background-hover: ##fff;
+    --background-activated: ##fff;
+    --background-focused: ##fff;
+
+    --color: rgb(75, 85, 99);
+
+    --border-radius: 0;
+    --border-color: #fff;
+    --border-style: solid;
+    --border-width: 0px;
+
+    --box-shadow: 0 2px 6px 0 rgb(0, 0, 0, 0);
+
+    --ripple-color: deeppink;
+
+    --padding-top: 10px;
+    --padding-bottom: 10px;
+}
+#footer_copy{
+    font-family: InterVariable, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 17.5px;
+    letter-spacing: -0.5px;
+    font-weight: 500;
+    line-height: 25px;
+    text-decoration: none solid rgb(55, 65, 81);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#miguel_page{
+    --color: #2563EB;
+}
+
+
+@media (max-width: 600px){ 
+    #footer_content{
+        height:50vh;
+    }
+    #footer_copy{
+        width:90%;
+        margin-top:20px;
+    }
+
+}
