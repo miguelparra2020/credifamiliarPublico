@@ -2,6 +2,7 @@ import { IonContent, IonHeader, IonPage,  IonToolbar,IonSlides, IonSlide } from 
 import './Tab2.css';
 import Toolbar from '../components/Toolbar';
 import SliderBanner1 from '../components/solicitar/SliderBanner1'
+import SliderItems from '../components/solicitar/SliderItems';
 
 const slideOpts = {
   initialSlide: 0,
@@ -22,7 +23,7 @@ const Tab2: React.FC = () => {
             <SliderBanner1/>
           </IonSlide>
           <IonSlide>
-            <h1>Slide 1</h1>
+            <SliderItems/>
           </IonSlide>
           <IonSlide>
             <h1>Slide 2</h1>
