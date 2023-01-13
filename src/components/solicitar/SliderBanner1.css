@@ -1,0 +1,13 @@
+ion-card-header.ios {
+    display: flex;
+    flex-flow: column-reverse;
+}
+#content_img{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+#img{
+    max-height: 450px;
+    max-width: 450px;
+}

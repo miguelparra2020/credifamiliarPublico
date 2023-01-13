@@ -17,8 +17,8 @@ const Footer: React.FC = () => {
                 </div>
                 <div>
                 Copy right: 
-                <IonButton href="https://www.facebook.com/MiguelPaezUnidigital" target='_blanck' id="miguel_page">
-                Miguel Páez 
+                <IonButton href="/Terminos" id="miguel_page">
+                Nombre de la empresa
                 </IonButton>
                 · All rights reserved.
                 
