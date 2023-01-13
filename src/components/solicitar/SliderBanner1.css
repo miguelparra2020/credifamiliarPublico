@@ -12,7 +12,7 @@ ion-card-header.ios {
     max-width: 450px;
 }
 
-@media screen and (max-width: 400px){ 
+@media screen and (max-width: 350px){ 
     #img{
         max-height: 200px;
         max-width: 200px;

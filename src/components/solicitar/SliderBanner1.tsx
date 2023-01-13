@@ -11,11 +11,11 @@ const SliderBanner1: React.FC = () => {
                 </div> 
                 <IonCardHeader>
                     <IonCardTitle>Bienvenido al proceso de solicitud</IonCardTitle>
-                    <IonCardSubtitle>Otorgamos creditos de libre inversión</IonCardSubtitle>
+                    <IonCardSubtitle>Otorgamos créditos de libre inversión</IonCardSubtitle>
                 </IonCardHeader>
 
                 <IonCardContent>
-                    En nuestra plataforma tratamos de hacer un proceso muy fácil de realizar, facil de solicitar y fácil de pagar. Desliza a la derecha para continuar. <IonIcon icon={chevronForwardCircleOutline}/>
+                    En nuestra plataforma tratamos de hacer un proceso muy fácil de realizar, fácil de solicitar y fácil de pagar. Desliza a la derecha para continuar. <IonIcon icon={chevronForwardCircleOutline}/>
                 </IonCardContent>
             </IonCard>
         </div>
