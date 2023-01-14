@@ -3,6 +3,7 @@ import './Tab2.css';
 import Toolbar from '../components/Toolbar';
 import SliderBanner1 from '../components/solicitar/SliderBanner1'
 import SliderItems from '../components/solicitar/SliderItems';
+import OpcionesCreditos from '../components/solicitar/OpcionesCreditos';
 
 const slideOpts = {
   initialSlide: 0,
@@ -26,7 +27,7 @@ const Tab2: React.FC = () => {
             <SliderItems/>
           </IonSlide>
           <IonSlide>
-            <h1>Slide 2</h1>
+            <OpcionesCreditos/>
           </IonSlide>
         </IonSlides>
       </IonContent>
