@@ -1,17 +1,21 @@
+
 import { IonContent, IonHeader, IonPage } from '@ionic/react';
-import './Tab4.css';
-import Toolbar from '../components/Toolbar';
-const Tab4: React.FC = () => {
+import Toolbar from '../../components/Toolbar';
+
+const cd2: React.FC = () => {
     return (
         <IonPage>
         <IonHeader>
             <Toolbar/>
         </IonHeader>
-        <IonContent fullscreen>
-            Información
+        <IonContent fullscreen >
+        <div id="contenido">
+            CD2
+            
+        </div>
         </IonContent>
         </IonPage>
     );
 };
 
-export default Tab4;
+export default cd2;

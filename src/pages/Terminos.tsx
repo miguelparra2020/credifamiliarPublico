@@ -1,19 +1,15 @@
 
-import { IonContent, IonHeader, IonPage, IonChip,IonAvatar, IonItem, IonCol, IonGrid, IonRow, IonIcon, IonTitle,IonButton,    } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonChip, IonCol, IonGrid, IonRow, IonIcon, IonTitle,IonButton,    } from '@ionic/react';
 import './Terminos.css';
 import { download } from 'ionicons/icons';
+import Toolbar from '../components/Toolbar';
 
 
 const Terminos: React.FC = () => {
     return (
         <IonPage>
         <IonHeader>
-            <IonItem>
-            <IonAvatar slot="start">
-                <img alt="Silhouette of a person's head" src="https://ionicframework.com/docs/img/demos/avatar.svg" />
-            </IonAvatar>
-            <IonTitle>Titulo de la empresa</IonTitle>
-            </IonItem>
+            <Toolbar/>
         </IonHeader>
         <IonContent fullscreen >
         <div id="contenido">

@@ -6,21 +6,24 @@ import {  IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle,
 const OpcionesCreditos: React.FC = () => {
     return (
         <div id='contenedor'>
+            <div id='center'> <h1>Empecemos 👇</h1></div>
             <IonCard>
                 <IonCardHeader>
                     <IonCardTitle>Escoge la mejor opción Acorde a su necesidad</IonCardTitle>
-                    <IonCardSubtitle>Te podemos ofrecer: </IonCardSubtitle>
                 </IonCardHeader>
 
                 <IonCardContent>
-                    <IonCardSubtitle>Escoge la cantidad de dinero</IonCardSubtitle>
-                    <IonItem href="#">
+                    <IonCardSubtitle>Escoge la cantidad de dinero:</IonCardSubtitle>
+                    <br />
+                    <IonItem href="/solicitud/cd1" color="secondary">
                         <IonLabel>$100.000 "Cien mil pesos m/cte" 💵</IonLabel>
                     </IonItem>
-                    <IonItem href="#">
+                    <br />
+                    <IonItem href="/solicitud/cd2" color="primary">
                         <IonLabel>$200.000 "Docientos mil pesos m/cte" 💵</IonLabel>
                     </IonItem>
-                    <IonItem href="#">
+                    <br />
+                    <IonItem href="/solicitud/cd3" color="tertiary">
                         <IonLabel>$300.000 "Trescientos mil pesos m/cte" 💵</IonLabel>
                     </IonItem>
                 </IonCardContent>
