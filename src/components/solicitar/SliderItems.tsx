@@ -1,5 +1,5 @@
 import './SliderItems.css';
-import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonItem, IonLabel, IonList, IonThumbnail } from '@ionic/react';
+import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonItem, IonLabel, IonList, IonThumbnail, IonImg } from '@ionic/react';
 
 const SliderItems: React.FC = () => {
     return (
@@ -12,28 +12,28 @@ const SliderItems: React.FC = () => {
                 <IonList>
                 <IonItem>
                     <IonThumbnail slot="start">
-                    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+                    <IonImg src="/assets/img/registro.jpg" id='img'></IonImg>
                     </IonThumbnail>
                     <IonLabel>Formulario de contacto</IonLabel>
                 </IonItem>
 
                 <IonItem>
                     <IonThumbnail slot="start">
-                    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+                    <IonImg src="/assets/img/pago.jpg" id='img'></IonImg>
                     </IonThumbnail>
                     <IonLabel>Formulario capacidad de pago</IonLabel>
                 </IonItem>
 
                 <IonItem>
                     <IonThumbnail slot="start">
-                    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+                    <IonImg src="/assets/img/referencias.jpg" id='img'></IonImg>
                     </IonThumbnail>
                     <IonLabel>Formulario referencias</IonLabel>
                 </IonItem>
 
                 <IonItem lines="none">
                     <IonThumbnail slot="start">
-                    <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/thumbnail.svg" />
+                    <IonImg src="/assets/img/pagare.jpg" id='img'></IonImg>
                     </IonThumbnail>
                     <IonLabel>Formulario Pagaré</IonLabel>
                 </IonItem>
