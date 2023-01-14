@@ -4,10 +4,10 @@ import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle,I
 
 const SliderBanner1: React.FC = () => {
     return (
-        <div >
+        <div id='contenedor'>
             <IonCard>
                 <div id='content_img'>   
-                <IonImg src="/assets/img/icon.png" id='img'></IonImg>
+                <IonImg src="/assets/img/prestamos.jpg" id='img'></IonImg>
                 </div> 
                 <IonCardHeader>
                     <IonCardTitle>Bienvenido al proceso de solicitud</IonCardTitle>

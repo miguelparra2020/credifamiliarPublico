@@ -2,6 +2,9 @@ ion-card-header.ios {
     display: flex;
     flex-flow: column-reverse;
 }
+#contenedor{
+    max-width: 400px;
+}
 #content_img{
     display:flex;
     align-items: center;

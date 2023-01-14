@@ -1,12 +1,13 @@
+import { chevronForwardCircleOutline } from 'ionicons/icons';
 import './SliderItems.css';
-import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonItem, IonLabel, IonList, IonThumbnail, IonImg } from '@ionic/react';
+import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonItem, IonLabel, IonList, IonThumbnail, IonImg, IonIcon } from '@ionic/react';
 
 const SliderItems: React.FC = () => {
     return (
         <IonCard>
             <IonCardHeader>
                 <IonCardTitle>Procesos Necesarios</IonCardTitle>
-                <IonCardSubtitle>Necesitamos poder validar algunos aspectos para otorgarle el prestamo.</IonCardSubtitle>
+                <IonCardSubtitle>Necesitamos poder validar algunos aspectos para otorgarle el préstamo.</IonCardSubtitle>
             </IonCardHeader>
             <IonCardContent>
                 <IonList>
@@ -38,6 +39,7 @@ const SliderItems: React.FC = () => {
                     <IonLabel>Formulario Pagaré</IonLabel>
                 </IonItem>
                 </IonList>
+                <IonCardSubtitle>Desliza a la derecha para continuar. <IonIcon icon={chevronForwardCircleOutline}/></IonCardSubtitle>
             </IonCardContent>
     </IonCard>
     );
