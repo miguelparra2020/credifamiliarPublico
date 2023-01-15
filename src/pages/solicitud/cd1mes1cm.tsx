@@ -54,7 +54,7 @@ const cd1mes1cm: React.FC = () => {
                         </IonItem>
                         <IonItem >
                         <IonIcon icon={checkbox} color="primary"/>
-                            <IonLabel>Total: $120.000</IonLabel>
+                            <IonLabel>1 cuota mensual de: $120.000</IonLabel>
                         </IonItem>
                     </IonCard>
                     <IonButton color="primary" expand="full">Hacer Solicitud</IonButton>
