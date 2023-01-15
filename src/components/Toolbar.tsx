@@ -5,7 +5,7 @@ const Toolbar: React.FC = () => {
         <div id="toolbar">
             <IonToolbar>
                 <IonAvatar slot="start" id='avatar'>
-                    <IonImg alt="Imagen de la Empresa"  src="https://ionicframework.com/docs/img/demos/avatar.svg" />
+                    <IonImg src="/assets/img/icon.jpg" id='img'></IonImg>
                 </IonAvatar>
                 <IonTitle>CrediFast</IonTitle>
             </IonToolbar>
