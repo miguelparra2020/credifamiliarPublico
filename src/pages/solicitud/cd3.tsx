@@ -22,11 +22,11 @@ const cd3: React.FC = () => {
                 <IonCardContent>
                     <IonCardSubtitle>De que forma le queda fácil el pago:</IonCardSubtitle>
                     <br />
-                    <IonItem href="/solicitud/cd2mes" color="secondary">
+                    <IonItem href="/solicitud/cd3mes" color="secondary">
                         <IonLabel>💲Mesual: "Cada mes el pago"</IonLabel>
                     </IonItem>
                     <br />
-                    <IonItem href="/solicitud/cd2" color="primary">
+                    <IonItem href="/solicitud/cd3quincena" color="primary">
                         <IonLabel>💲Quincenal: "Cada 15 días el pago"</IonLabel>
                     </IonItem>
                 </IonCardContent>

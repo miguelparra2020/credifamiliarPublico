@@ -1,5 +1,5 @@
 
-import {IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonItem, IonLabel, IonPage } from '@ionic/react';
+import {IonButton, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonItem, IonLabel, IonPage } from '@ionic/react';
 import './cd1mes.css';
 
 import Toolbar from '../../components/Toolbar';
@@ -13,6 +13,7 @@ const cd1mes: React.FC = () => {
         </IonHeader>
         <IonContent fullscreen >
         <div id="contenido">
+            <IonButton expand="block" color="secondary" href='/solicitud/cd1'>Volver</IonButton>
             <IonCard id='car'>
                 <IonCardHeader>
                     <IonCardTitle>Ya Escogió: $100.000 "Cien mil pesos m/cte" 💵</IonCardTitle>

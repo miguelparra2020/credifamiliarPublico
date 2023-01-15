@@ -1,11 +1,11 @@
 
 import {IonButton, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonItem, IonLabel, IonPage } from '@ionic/react';
-import './cd2mes.css';
+import './cd3quincena.css';
 
 import Toolbar from '../../components/Toolbar';
 
 
-const cd2mes: React.FC = () => {
+const cd3quincena: React.FC = () => {
     return (
         <IonPage>
         <IonHeader>
@@ -13,26 +13,26 @@ const cd2mes: React.FC = () => {
         </IonHeader>
         <IonContent fullscreen >
         <div id="contenido">
-            <IonButton expand="block" color="secondary" href='/solicitud/cd2'>Volver</IonButton>
+            <IonButton expand="block" color="secondary" href='/solicitud/cd3'>Volver</IonButton>
             <IonCard id='car'>
                 <IonCardHeader>
-                    <IonCardTitle>Ya Escogió: $200.000 "Docientos mil pesos m/cte" 💵</IonCardTitle>
-                    <IonCardTitle>💲Para pagar de manera Mesual</IonCardTitle>
+                    <IonCardTitle>Ya Escogió: $300.000 "Trescientos mil pesos m/cte" 💵</IonCardTitle>
+                    <IonCardTitle>💲Para pagar de manera Quincenal</IonCardTitle>
                 </IonCardHeader>
 
                 <IonCardContent>
                     <IonCardSubtitle>Tiene la opción de escoger cuantas cuotas desea pagar:</IonCardSubtitle>
                     <br />
                     <IonItem href="/solicitud/cd1" color="secondary">
-                            <IonLabel>👉 1 cuota mensual</IonLabel>
+                            <IonLabel>👉 1 cuota quincenal</IonLabel>
                     </IonItem>
                     <br />
                     <IonItem href="/solicitud/cd1" color="primary">
-                            <IonLabel>👉 2 cuotas mensuales</IonLabel>
+                            <IonLabel>👉 2 cuotas quincenales</IonLabel>
                     </IonItem>
                     <br />
                     <IonItem href="/solicitud/cd1" color="tertiary">
-                        <IonLabel>👉 3 cuotas mensuales</IonLabel>
+                        <IonLabel>👉 3 cuotas quincenales</IonLabel>
                     </IonItem>
                 </IonCardContent>
             </IonCard>
@@ -43,4 +43,4 @@ const cd2mes: React.FC = () => {
     );
 };
 
-export default cd2mes;
+export default cd3quincena;

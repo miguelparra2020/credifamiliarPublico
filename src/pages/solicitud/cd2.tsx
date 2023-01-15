@@ -26,7 +26,7 @@ const cd2: React.FC = () => {
                         <IonLabel>💲Mesual: "Cada mes el pago"</IonLabel>
                     </IonItem>
                     <br />
-                    <IonItem href="/solicitud/cd2" color="primary">
+                    <IonItem href="/solicitud/cd2quincena" color="primary">
                         <IonLabel>💲Quincenal: "Cada 15 días el pago"</IonLabel>
                     </IonItem>
                 </IonCardContent>

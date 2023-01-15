@@ -23,6 +23,10 @@ import Cd2 from './pages/solicitud/cd2';
 import Cd3 from './pages/solicitud/cd3';
 import Cd1Mes from './pages/solicitud/cd1mes';
 import Cd2Mes from './pages/solicitud/cd2mes';
+import Cd3Mes from './pages/solicitud/cd3mes';
+import Cd1Quincena from './pages/solicitud/cd1quincena';
+import Cd2Quincena from './pages/solicitud/cd2quincena';
+import Cd3Quincena from './pages/solicitud/cd3quincena';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -78,14 +82,26 @@ const App: React.FC = () => (
           <Route path="/solicitud/cd1mes">
             <Cd1Mes />
           </Route>
+          <Route path="/solicitud/cd1quincena">
+            <Cd1Quincena/>
+          </Route>
           <Route path="/solicitud/cd2">
             <Cd2 />
           </Route>
           <Route path="/solicitud/cd2mes">
             <Cd2Mes />
           </Route>
+          <Route path="/solicitud/cd2quincena">
+            <Cd2Quincena />
+          </Route>
           <Route path="/solicitud/cd3">
             <Cd3 />
+          </Route>
+          <Route path="/solicitud/cd3mes">
+            <Cd3Mes />
+          </Route>
+          <Route path="/solicitud/cd3quincena">
+            <Cd3Quincena />
           </Route>
           <Route exact path="/">
             <Redirect to="/tab1" />

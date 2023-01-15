@@ -1,11 +1,11 @@
 
 import {IonButton, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonItem, IonLabel, IonPage } from '@ionic/react';
-import './cd2mes.css';
+import './cd3mes.css';
 
 import Toolbar from '../../components/Toolbar';
 
 
-const cd2mes: React.FC = () => {
+const cd3mes: React.FC = () => {
     return (
         <IonPage>
         <IonHeader>
@@ -13,10 +13,10 @@ const cd2mes: React.FC = () => {
         </IonHeader>
         <IonContent fullscreen >
         <div id="contenido">
-            <IonButton expand="block" color="secondary" href='/solicitud/cd2'>Volver</IonButton>
+            <IonButton expand="block" color="secondary" href='/solicitud/cd3'>Volver</IonButton>
             <IonCard id='car'>
                 <IonCardHeader>
-                    <IonCardTitle>Ya Escogió: $200.000 "Docientos mil pesos m/cte" 💵</IonCardTitle>
+                    <IonCardTitle>Ya Escogió: $300.000 "Trescientos mil pesos m/cte" 💵</IonCardTitle>
                     <IonCardTitle>💲Para pagar de manera Mesual</IonCardTitle>
                 </IonCardHeader>
 
@@ -43,4 +43,4 @@ const cd2mes: React.FC = () => {
     );
 };
 
-export default cd2mes;
+export default cd3mes;
