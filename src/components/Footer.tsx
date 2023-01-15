@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
                 <div>
                 Copy right: 
                 <IonButton href="/Terminos" id="miguel_page">
-                Nombre de la empresa
+                Credifast
                 </IonButton>
                 · All rights reserved.
                 
