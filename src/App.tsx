@@ -22,6 +22,7 @@ import Cd1 from './pages/solicitud/cd1';
 import Cd2 from './pages/solicitud/cd2';
 import Cd3 from './pages/solicitud/cd3';
 import Cd1Mes from './pages/solicitud/cd1mes';
+import Cd1Mes1Cm from './pages/solicitud/cd1mes1cm';
 import Cd2Mes from './pages/solicitud/cd2mes';
 import Cd3Mes from './pages/solicitud/cd3mes';
 import Cd1Quincena from './pages/solicitud/cd1quincena';
@@ -81,6 +82,9 @@ const App: React.FC = () => (
           </Route>
           <Route path="/solicitud/cd1mes">
             <Cd1Mes />
+          </Route>
+          <Route path="/solicitud/cd1mes1cm">
+            <Cd1Mes1Cm />
           </Route>
           <Route path="/solicitud/cd1quincena">
             <Cd1Quincena/>

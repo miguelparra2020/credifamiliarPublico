@@ -1,8 +1,9 @@
 
-import {IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonItem, IonLabel, IonPage } from '@ionic/react';
-import './cd1mes.css';
+import {IonCard, IonCardContent, IonCardHeader,  IonCardTitle, IonContent, IonHeader, IonItem, IonLabel, IonPage, IonIcon, IonButton } from '@ionic/react';
+import './cd1mes1cm.css';
 
 import Toolbar from '../../components/Toolbar';
+import { checkbox, ellipse } from 'ionicons/icons';
 
 
 const cd1mes1cm: React.FC = () => {
@@ -15,24 +16,48 @@ const cd1mes1cm: React.FC = () => {
         <div id="contenido">
             <IonCard id='car'>
                 <IonCardHeader>
-                    <IonCardTitle>Ya Escogió: $100.000 "Cien mil pesos m/cte" 💵</IonCardTitle>
-                    <IonCardTitle>💲Para pagar de manera Mesual</IonCardTitle>
+                    <IonCardTitle>Estas son todas las opciones que escogió:</IonCardTitle>
                 </IonCardHeader>
 
                 <IonCardContent>
-                    <IonCardSubtitle>Tiene la opción de escoger cuantas cuotas desea pagar:</IonCardSubtitle>
-                    <br />
-                    <IonItem href="/solicitud/cd1" color="secondary">
-                            <IonLabel>👉 1 cuota mensual</IonLabel>
-                    </IonItem>
-                    <br />
-                    <IonItem href="/solicitud/cd1" color="primary">
-                            <IonLabel>👉 2 cuotas mensuales</IonLabel>
-                    </IonItem>
-                    <br />
-                    <IonItem href="/solicitud/cd1" color="tertiary">
-                        <IonLabel>👉 3 cuotas mensuales</IonLabel>
-                    </IonItem>
+                    <IonCard>
+                        <IonItem >
+                                <IonIcon icon={checkbox} color="success"/>
+                                <IonLabel>$100.000 pesos mcte</IonLabel>
+                        </IonItem>
+                        <IonItem >
+                                <IonIcon icon={checkbox} color="success"/>
+                                <IonLabel>Pago mensual</IonLabel>
+                        </IonItem>
+                        <IonItem >
+                            <IonIcon icon={checkbox} color="success"/>
+                            <IonLabel>1 cuota mensual</IonLabel>
+                        </IonItem>
+                    </IonCard>
+                    <IonCardTitle>Con estas opciones usted pagaría:</IonCardTitle>
+                    <IonCard>
+                        <IonItem >
+                                <IonIcon icon={ellipse}/>
+                                <IonLabel>Valor a Capital: $100.000</IonLabel>
+                        </IonItem>
+                        <IonItem >
+                                <IonIcon icon={ellipse}/>
+                                <IonLabel>Costos administrativos: $10.000</IonLabel>
+                        </IonItem>
+                        <IonItem >
+                            <IonIcon icon={ellipse}/>
+                            <IonLabel>Costos plataforma: $6.000</IonLabel>
+                        </IonItem>
+                        <IonItem >
+                            <IonIcon icon={ellipse}/>
+                            <IonLabel>Interés: $4.000</IonLabel>
+                        </IonItem>
+                        <IonItem >
+                        <IonIcon icon={checkbox} color="primary"/>
+                            <IonLabel>Total: $120.000</IonLabel>
+                        </IonItem>
+                    </IonCard>
+                    <IonButton color="primary" expand="full">Hacer Solicitud</IonButton>
                 </IonCardContent>
             </IonCard>
             
