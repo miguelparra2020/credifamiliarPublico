@@ -1,11 +1,12 @@
 #contenido{
-    height:200%;
+    height:200vh;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 #car{
+    height:50vh;
     max-width: 500px;
     text-align: center;
 }
