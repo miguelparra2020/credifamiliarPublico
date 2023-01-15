@@ -17,10 +17,12 @@ import Tab3 from './pages/Tab3';
 import Tab4 from './pages/Tab4';
 import AppDown from './pages/AppDown';
 import Terminos from './pages/Terminos';
+import SoloOpciones from './pages/solicitud/soloOpciones';
 import Cd1 from './pages/solicitud/cd1';
 import Cd2 from './pages/solicitud/cd2';
 import Cd3 from './pages/solicitud/cd3';
 import Cd1Mes from './pages/solicitud/cd1mes';
+import Cd2Mes from './pages/solicitud/cd2mes';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -67,6 +69,9 @@ const App: React.FC = () => (
           <Route path="/Terminos">
             <Terminos />
           </Route>
+          <Route path="/solicitud/soloOpciones">
+            <SoloOpciones />
+          </Route>
           <Route path="/solicitud/cd1">
             <Cd1 />
           </Route>
@@ -75,6 +80,9 @@ const App: React.FC = () => (
           </Route>
           <Route path="/solicitud/cd2">
             <Cd2 />
+          </Route>
+          <Route path="/solicitud/cd2mes">
+            <Cd2Mes />
           </Route>
           <Route path="/solicitud/cd3">
             <Cd3 />

@@ -1,17 +1,36 @@
 
-import { IonContent, IonHeader, IonPage } from '@ionic/react';
+import { IonButton, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonItem, IonLabel, IonPage } from '@ionic/react';
+import './cd2.css';
+
 import Toolbar from '../../components/Toolbar';
+
 
 const cd2: React.FC = () => {
     return (
         <IonPage>
         <IonHeader>
-            <Toolbar/>
+        <Toolbar/>
         </IonHeader>
         <IonContent fullscreen >
         <div id="contenido">
-            CD2
-            
+            <IonButton expand="block" color="success" href='/solicitud/soloOpciones'>Volver</IonButton>
+            <IonCard id='car'>
+                <IonCardHeader>
+                    <IonCardTitle>Al esgoger: $200.000 "Doscientos mil pesos m/cte" 💵</IonCardTitle>
+                </IonCardHeader>
+
+                <IonCardContent>
+                    <IonCardSubtitle>De que forma le queda fácil el pago:</IonCardSubtitle>
+                    <br />
+                    <IonItem href="/solicitud/cd2mes" color="secondary">
+                        <IonLabel>💲Mesual: "Cada mes el pago"</IonLabel>
+                    </IonItem>
+                    <br />
+                    <IonItem href="/solicitud/cd2" color="primary">
+                        <IonLabel>💲Quincenal: "Cada 15 días el pago"</IonLabel>
+                    </IonItem>
+                </IonCardContent>
+            </IonCard>
         </div>
         </IonContent>
         </IonPage>
@@ -19,3 +38,4 @@ const cd2: React.FC = () => {
 };
 
 export default cd2;
+
