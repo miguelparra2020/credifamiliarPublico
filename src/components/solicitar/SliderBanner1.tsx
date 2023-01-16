@@ -14,7 +14,7 @@ const SliderBanner1: React.FC = () => {
                     <IonCardSubtitle>Otorgamos créditos de libre inversión</IonCardSubtitle>
                 </IonCardHeader>
 
-                <IonCardContent>
+                <IonCardContent id='parrafo'>
                     En nuestra plataforma tratamos de hacer un proceso muy fácil de realizar, fácil de solicitar y fácil de pagar. Desliza a la derecha para continuar. <IonIcon icon={chevronForwardCircleOutline}/>
                 </IonCardContent>
             </IonCard>
