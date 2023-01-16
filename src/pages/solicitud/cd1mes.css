@@ -1,12 +1,12 @@
-#contenido{
-    height:200vh;
+#contenido_cd1mes{
+    height:100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background-color: red;
 }
-#car{
+#car_cd1mes{
     height:50vh;
     max-width: 500px;
     text-align: center;

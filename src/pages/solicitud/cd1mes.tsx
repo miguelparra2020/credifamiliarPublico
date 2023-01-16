@@ -12,9 +12,9 @@ const cd1mes: React.FC = () => {
         <Toolbar/>
         </IonHeader>
         <IonContent fullscreen >
-        <div id="contenido">
+        <div id="contenido_cd1mes">
             <IonButton expand="block" color="secondary" href='/solicitud/cd1'>Volver</IonButton>
-            <IonCard id='car'>
+            <IonCard id='car_cd1mes'>
                 <IonCardHeader>
                     <IonCardTitle>Ya Escogió: $100.000 "Cien mil pesos m/cte" 💵</IonCardTitle>
                     <IonCardTitle>💲Para pagar de manera Mesual</IonCardTitle>
