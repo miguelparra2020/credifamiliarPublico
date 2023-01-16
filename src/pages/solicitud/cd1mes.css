@@ -4,7 +4,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: red;
 }
 #car_cd1mes{
     max-width: 500px;
@@ -15,7 +14,8 @@
     #contenido_cd1mes{
         height:200%;
         justify-content: flex-start;
-        background-color: blue;
     }
-    
+    #titulo_cd1mes{
+        font-size: 14px;
+    }
 }

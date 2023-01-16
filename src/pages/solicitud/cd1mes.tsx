@@ -16,8 +16,8 @@ const cd1mes: React.FC = () => {
             <IonButton expand="block" color="secondary" href='/solicitud/cd1'>Volver</IonButton>
             <IonCard id='car_cd1mes'>
                 <IonCardHeader>
-                    <IonCardTitle>Ya Escogió: $100.000 "Cien mil pesos m/cte" 💵</IonCardTitle>
-                    <IonCardTitle>💲Para pagar de manera Mesual</IonCardTitle>
+                    <IonCardTitle id='titulo_cd1mes'>Ya Escogió: $100.000 "Cien mil pesos m/cte" 💵</IonCardTitle>
+                    <IonCardTitle id='titulo_cd1mes'>💲Para pagar de manera Mesual</IonCardTitle>
                 </IonCardHeader>
 
                 <IonCardContent>
