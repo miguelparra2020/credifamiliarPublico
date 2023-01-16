@@ -17,20 +17,20 @@ ion-card-header.ios {
 
 @media screen and (max-width: 400px){ 
     #img{
-        max-height: 300px;
-        max-width: 300px;
+        max-height: 280px;
+        max-width: 280px;
     }
     
 }
 @media screen and (max-width: 350px){ 
     #img{
-        max-height: 250px;
-        max-width: 250px;
+        max-height: 220px;
+        max-width: 220px;
     }
 }
 @media screen and (max-width: 300px){ 
     #img{
-        max-height: 200px;
-        max-width: 200px;
+        max-height: 150px;
+        max-width: 150px;
     }
 }
