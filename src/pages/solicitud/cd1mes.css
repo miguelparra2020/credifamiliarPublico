@@ -15,6 +15,7 @@
     #contenido_cd1mes{
         height:200%;
         justify-content: flex-start;
+        background-color: blue;
     }
     
 }
