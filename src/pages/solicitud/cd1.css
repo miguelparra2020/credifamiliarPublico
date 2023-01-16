@@ -1,11 +1,11 @@
-#contenido{
-    height:200%;
+#contenido_cd1{
+    height:100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
-#car{
+#car_cd1{
     max-width: 500px;
     text-align: center;
 }
