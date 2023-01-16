@@ -20,29 +20,11 @@ ion-card-header.ios {
 
 @media screen and (max-width: 400px){ 
     #img{
-        max-height: 280px;
-        max-width: 280px;
+        max-height: 200px;
+        max-width: 200px;
     }
     #parrafo{
         color: red;
     }
     
-}
-@media screen and (max-width: 350px){ 
-    #img{
-        max-height: 220px;
-        max-width: 220px;
-    }
-    #parrafo{
-        color: green;
-    }
-}
-@media screen and (max-width: 300px){ 
-    #img{
-        max-height: 150px;
-        max-width: 150px;
-    }
-    #parrafo{
-        color: yellow;
-    }
 }
