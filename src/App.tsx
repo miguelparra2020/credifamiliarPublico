@@ -23,9 +23,14 @@ import Cd2 from './pages/solicitud/cd2';
 import Cd3 from './pages/solicitud/cd3';
 import Cd1Mes from './pages/solicitud/cd1mes';
 import Cd1Mes1Cm from './pages/solicitud/cd1mes1cm';
+import Cd1Mes2Cm from './pages/solicitud/cd1mes2cm';
+import Cd1Mes3Cm from './pages/solicitud/cd1mes3cm';
 import Cd2Mes from './pages/solicitud/cd2mes';
 import Cd3Mes from './pages/solicitud/cd3mes';
 import Cd1Quincena from './pages/solicitud/cd1quincena';
+import Cd1Quincena1Cq from './pages/solicitud/cd1quincena1cq';
+import Cd1Quincena2Cq from './pages/solicitud/cd1quincena2cq';
+import Cd1Quincena3Cq from './pages/solicitud/cd1quincena3cq';
 import Cd2Quincena from './pages/solicitud/cd2quincena';
 import Cd3Quincena from './pages/solicitud/cd3quincena';
 
@@ -86,8 +91,23 @@ const App: React.FC = () => (
           <Route path="/solicitud/cd1mes1cm">
             <Cd1Mes1Cm />
           </Route>
+          <Route path="/solicitud/cd1mes2cm">
+            <Cd1Mes2Cm />
+          </Route>
+          <Route path="/solicitud/cd1mes3cm">
+            <Cd1Mes3Cm />
+          </Route>
           <Route path="/solicitud/cd1quincena">
             <Cd1Quincena/>
+          </Route>
+          <Route path="/solicitud/cd1quincena1cq">
+            <Cd1Quincena1Cq/>
+          </Route>
+          <Route path="/solicitud/cd1quincena2cq">
+            <Cd1Quincena2Cq/>
+          </Route>
+          <Route path="/solicitud/cd1quincena3cq">
+            <Cd1Quincena3Cq/>
           </Route>
           <Route path="/solicitud/cd2">
             <Cd2 />

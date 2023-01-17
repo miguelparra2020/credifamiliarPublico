@@ -28,11 +28,11 @@ const cd1mes: React.FC = () => {
                             <IonLabel>👉 1 cuota mensual</IonLabel>
                     </IonItem>
                     <br />
-                    <IonItem href="/solicitud/cd1" color="primary">
+                    <IonItem href="/solicitud/cd1mes2cm" color="primary">
                             <IonLabel>👉 2 cuotas mensuales</IonLabel>
                     </IonItem>
                     <br />
-                    <IonItem href="/solicitud/cd1" color="tertiary">
+                    <IonItem href="/solicitud/cd1mes3cm" color="tertiary">
                         <IonLabel>👉 3 cuotas mensuales</IonLabel>
                     </IonItem>
                 </IonCardContent>
