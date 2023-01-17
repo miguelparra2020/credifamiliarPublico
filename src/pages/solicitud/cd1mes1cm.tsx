@@ -1,9 +1,9 @@
 
-import {IonCard, IonCardContent, IonCardHeader,  IonCardTitle, IonContent, IonHeader, IonItem, IonLabel, IonPage, IonIcon, IonButton } from '@ionic/react';
+import {IonCard, IonCardContent, IonCardHeader,  IonCardTitle, IonContent, IonHeader, IonItem, IonLabel, IonPage, IonIcon, IonButton, IonChip } from '@ionic/react';
 import './cd1mes1cm.css';
 
 import Toolbar from '../../components/Toolbar';
-import { checkbox, ellipse } from 'ionicons/icons';
+import { arrowUndoCircleOutline, checkbox, ellipse } from 'ionicons/icons';
 
 
 const cd1mes1cm: React.FC = () => {
@@ -60,7 +60,12 @@ const cd1mes1cm: React.FC = () => {
                     <IonButton color="primary" expand="full">Hacer Solicitud</IonButton>
                 </IonCardContent>
             </IonCard>
-            
+            <IonButton href='/solicitud/cd1mes'>
+            <IonChip>
+                <IonIcon icon={arrowUndoCircleOutline}></IonIcon>
+                <IonLabel>Volver</IonLabel>
+            </IonChip>
+            </IonButton>
         </div>
         </IonContent>
         </IonPage>

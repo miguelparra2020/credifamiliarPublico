@@ -1,5 +1,5 @@
 
-import {IonButton, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonContent, IonHeader, IonItem, IonLabel, IonPage } from '@ionic/react';
+import {IonButton, IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle,  IonContent, IonHeader, IonItem, IonLabel, IonPage } from '@ionic/react';
 import './cd1quincena.css';
 
 import Toolbar from '../../components/Toolbar';
@@ -36,6 +36,7 @@ const cd1quincena: React.FC = () => {
                     </IonItem>
                 </IonCardContent>
             </IonCard>
+            
             
         </div>
         </IonContent>
