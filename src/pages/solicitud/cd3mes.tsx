@@ -23,15 +23,15 @@ const cd3mes: React.FC = () => {
                 <IonCardContent>
                     <IonCardSubtitle>Tiene la opción de escoger cuantas cuotas desea pagar:</IonCardSubtitle>
                     <br />
-                    <IonItem href="/solicitud/cd1" color="secondary">
+                    <IonItem href="/solicitud/cd3mes1cm" color="secondary">
                             <IonLabel>👉 1 cuota mensual</IonLabel>
                     </IonItem>
                     <br />
-                    <IonItem href="/solicitud/cd1" color="primary">
+                    <IonItem href="/solicitud/cd3mes2cm" color="primary">
                             <IonLabel>👉 2 cuotas mensuales</IonLabel>
                     </IonItem>
                     <br />
-                    <IonItem href="/solicitud/cd1" color="tertiary">
+                    <IonItem href="/solicitud/cd3mes3cm" color="tertiary">
                         <IonLabel>👉 3 cuotas mensuales</IonLabel>
                     </IonItem>
                 </IonCardContent>

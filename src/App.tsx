@@ -26,12 +26,21 @@ import Cd1Mes1Cm from './pages/solicitud/cd1mes1cm';
 import Cd1Mes2Cm from './pages/solicitud/cd1mes2cm';
 import Cd1Mes3Cm from './pages/solicitud/cd1mes3cm';
 import Cd2Mes from './pages/solicitud/cd2mes';
+import Cd2Mes1Cm from './pages/solicitud/cd2mes1cm';
+import Cd2Mes2Cm from './pages/solicitud/cd2mes2cm';
+import Cd2Mes3Cm from './pages/solicitud/cd2mes3cm';
 import Cd3Mes from './pages/solicitud/cd3mes';
+import Cd3Mes1Cm from './pages/solicitud/cd3mes1cm';
+import Cd3Mes2Cm from './pages/solicitud/cd3mes2cm';
+import Cd3Mes3Cm from './pages/solicitud/cd3mes3cm';
 import Cd1Quincena from './pages/solicitud/cd1quincena';
 import Cd1Quincena1Cq from './pages/solicitud/cd1quincena1cq';
 import Cd1Quincena2Cq from './pages/solicitud/cd1quincena2cq';
 import Cd1Quincena3Cq from './pages/solicitud/cd1quincena3cq';
 import Cd2Quincena from './pages/solicitud/cd2quincena';
+import Cd2Quincena1Cq from './pages/solicitud/cd2quincena1cq';
+import Cd2Quincena2Cq from './pages/solicitud/cd2quincena2cq';
+import Cd2Quincena3Cq from './pages/solicitud/cd2quincena3cq';
 import Cd3Quincena from './pages/solicitud/cd3quincena';
 
 /* Core CSS required for Ionic components to work properly */
@@ -115,14 +124,41 @@ const App: React.FC = () => (
           <Route path="/solicitud/cd2mes">
             <Cd2Mes />
           </Route>
+          <Route path="/solicitud/cd2mes1cm">
+            <Cd2Mes1Cm />
+          </Route>
+          <Route path="/solicitud/cd2mes2cm">
+            <Cd2Mes2Cm />
+          </Route>
+          <Route path="/solicitud/cd2mes3cm">
+            <Cd2Mes3Cm />
+          </Route>
           <Route path="/solicitud/cd2quincena">
             <Cd2Quincena />
+          </Route>
+          <Route path="/solicitud/cd2quincena1cq">
+            <Cd2Quincena1Cq/>
+          </Route>
+          <Route path="/solicitud/cd2quincena2cq">
+            <Cd2Quincena2Cq/>
+          </Route>
+          <Route path="/solicitud/cd2quincena3cq">
+            <Cd2Quincena3Cq/>
           </Route>
           <Route path="/solicitud/cd3">
             <Cd3 />
           </Route>
           <Route path="/solicitud/cd3mes">
             <Cd3Mes />
+          </Route>
+          <Route path="/solicitud/cd3mes1cm">
+            <Cd3Mes1Cm />
+          </Route>
+          <Route path="/solicitud/cd3mes2cm">
+            <Cd3Mes2Cm />
+          </Route>
+          <Route path="/solicitud/cd3mes3cm">
+            <Cd3Mes3Cm />
           </Route>
           <Route path="/solicitud/cd3quincena">
             <Cd3Quincena />
