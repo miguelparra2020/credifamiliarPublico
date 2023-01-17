@@ -4,12 +4,14 @@ import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, 
 
 const SliderItems: React.FC = () => {
     return (
+        <a   href='/solicitud/soloOpciones'>
         <IonCard>
             <IonCardHeader>
                 <IonCardTitle>Procesos Necesarios</IonCardTitle>
                 <IonCardSubtitle>Necesitamos poder validar algunos aspectos para otorgarle el préstamo.</IonCardSubtitle>
             </IonCardHeader>
             <IonCardContent>
+                
                 <IonList>
                 <IonItem>
                     <IonThumbnail slot="start">
@@ -42,6 +44,7 @@ const SliderItems: React.FC = () => {
                 <IonCardSubtitle>Desliza a la derecha para continuar. <IonIcon icon={chevronForwardCircleOutline}/></IonCardSubtitle>
             </IonCardContent>
     </IonCard>
+    </a>
     );
 };
 export default SliderItems;
