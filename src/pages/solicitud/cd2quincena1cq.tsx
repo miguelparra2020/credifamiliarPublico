@@ -62,7 +62,7 @@ const cd2quincena1cq: React.FC = () => {
                             <IonLabel>1 cuota quincenal de: $220.000</IonLabel>
                         </div>
                     </IonCard>
-                    <IonButton color="primary" expand="full">Hacer Solicitud</IonButton>
+                    <IonButton color="primary" expand="full" href='/solicitud/cd2quincena1cqsolicitud'>Hacer Solicitud</IonButton>
                 </IonCardContent>
             </IonCard>
             <IonButton href='/solicitud/cd2quincena'>

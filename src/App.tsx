@@ -25,26 +25,44 @@ import Cd1Mes from './pages/solicitud/cd1mes';
 import Cd1Mes1Cm from './pages/solicitud/cd1mes1cm';
 import Cd1Mes2Cm from './pages/solicitud/cd1mes2cm';
 import Cd1Mes3Cm from './pages/solicitud/cd1mes3cm';
+import Cd1Mes1CmSolicitud from './pages/solicitud/cd1mes1cmsolicitud';
+import Cd1Mes2CmSolicitud from './pages/solicitud/cd1mes2cmsolicitud';
+import Cd1Mes3CmSolicitud from './pages/solicitud/cd1mes3cmsolicitud';
 import Cd2Mes from './pages/solicitud/cd2mes';
 import Cd2Mes1Cm from './pages/solicitud/cd2mes1cm';
 import Cd2Mes2Cm from './pages/solicitud/cd2mes2cm';
 import Cd2Mes3Cm from './pages/solicitud/cd2mes3cm';
+import Cd2Mes1CmSolicitud from './pages/solicitud/cd2mes1cmsolicitud';
+import Cd2Mes2CmSolicitud from './pages/solicitud/cd2mes2cmsolicitud';
+import Cd2Mes3CmSolicitud from './pages/solicitud/cd2mes3cmsolicitud';
 import Cd3Mes from './pages/solicitud/cd3mes';
 import Cd3Mes1Cm from './pages/solicitud/cd3mes1cm';
 import Cd3Mes2Cm from './pages/solicitud/cd3mes2cm';
 import Cd3Mes3Cm from './pages/solicitud/cd3mes3cm';
+import Cd3Mes1CmSolicitud from './pages/solicitud/cd3mes1cmsolicitud';
+import Cd3Mes2CmSolicitud from './pages/solicitud/cd3mes2cmsolicitud';
+import Cd3Mes3CmSolicitud from './pages/solicitud/cd3mes3cmsolicitud';
 import Cd1Quincena from './pages/solicitud/cd1quincena';
 import Cd1Quincena1Cq from './pages/solicitud/cd1quincena1cq';
 import Cd1Quincena2Cq from './pages/solicitud/cd1quincena2cq';
 import Cd1Quincena3Cq from './pages/solicitud/cd1quincena3cq';
+import Cd1Quincena1CqSolicitud from './pages/solicitud/cd1quincena1cqsolicitud';
+import Cd1Quincena2CqSolicitud from './pages/solicitud/cd1quincena2cqsolicitud';
+import Cd1Quincena3CqSolicitud from './pages/solicitud/cd1quincena3cqsolicitud';
 import Cd2Quincena from './pages/solicitud/cd2quincena';
 import Cd2Quincena1Cq from './pages/solicitud/cd2quincena1cq';
 import Cd2Quincena2Cq from './pages/solicitud/cd2quincena2cq';
 import Cd2Quincena3Cq from './pages/solicitud/cd2quincena3cq';
+import Cd2Quincena1CqSolicitud from './pages/solicitud/cd2quincena1cqsolicitud';
+import Cd2Quincena2CqSolicitud from './pages/solicitud/cd2quincena2cqsolicitud';
+import Cd2Quincena3CqSolicitud from './pages/solicitud/cd2quincena3cqsolicitud';
 import Cd3Quincena from './pages/solicitud/cd3quincena';
 import Cd3Quincena1Cq from './pages/solicitud/cd3quincena1cq';
 import Cd3Quincena2Cq from './pages/solicitud/cd3quincena2cq';
 import Cd3Quincena3Cq from './pages/solicitud/cd3quincena3cq';
+import Cd3Quincena1CqSolicitud from './pages/solicitud/cd3quincena1cqsolicitud';
+import Cd3Quincena2CqSolicitud from './pages/solicitud/cd3quincena2cqsolicitud';
+import Cd3Quincena3CqSolicitud from './pages/solicitud/cd3quincena3cqsolicitud';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -109,6 +127,15 @@ const App: React.FC = () => (
           <Route path="/solicitud/cd1mes3cm">
             <Cd1Mes3Cm />
           </Route>
+          <Route path="/solicitud/cd1mes1cmsolicitud">
+            <Cd1Mes1CmSolicitud />
+          </Route>
+          <Route path="/solicitud/cd1mes2cmsolicitud">
+            <Cd1Mes2CmSolicitud />
+          </Route>
+          <Route path="/solicitud/cd1mes3cmsolicitud">
+            <Cd1Mes3CmSolicitud />
+          </Route>
           <Route path="/solicitud/cd1quincena">
             <Cd1Quincena/>
           </Route>
@@ -120,6 +147,15 @@ const App: React.FC = () => (
           </Route>
           <Route path="/solicitud/cd1quincena3cq">
             <Cd1Quincena3Cq/>
+          </Route>
+          <Route path="/solicitud/cd1quincena1cqsolicitud">
+            <Cd1Quincena1CqSolicitud/>
+          </Route>
+          <Route path="/solicitud/cd1quincena2cqsolicitud">
+            <Cd1Quincena2CqSolicitud/>
+          </Route>
+          <Route path="/solicitud/cd1quincena3cqsolicitud">
+            <Cd1Quincena3CqSolicitud/>
           </Route>
           <Route path="/solicitud/cd2">
             <Cd2 />
@@ -136,6 +172,15 @@ const App: React.FC = () => (
           <Route path="/solicitud/cd2mes3cm">
             <Cd2Mes3Cm />
           </Route>
+          <Route path="/solicitud/cd2mes1cmsolicitud">
+            <Cd2Mes1CmSolicitud />
+          </Route>
+          <Route path="/solicitud/cd2mes2cmsolicitud">
+            <Cd2Mes2CmSolicitud />
+          </Route>
+          <Route path="/solicitud/cd2mes3cmsolicitud">
+            <Cd2Mes3CmSolicitud />
+          </Route>
           <Route path="/solicitud/cd2quincena">
             <Cd2Quincena />
           </Route>
@@ -147,6 +192,15 @@ const App: React.FC = () => (
           </Route>
           <Route path="/solicitud/cd2quincena3cq">
             <Cd2Quincena3Cq/>
+          </Route>
+          <Route path="/solicitud/cd2quincena1cqsolicitud">
+            <Cd2Quincena1CqSolicitud/>
+          </Route>
+          <Route path="/solicitud/cd2quincena2cqsolicitud">
+            <Cd2Quincena2CqSolicitud/>
+          </Route>
+          <Route path="/solicitud/cd2quincena3cqsolicitud">
+            <Cd2Quincena3CqSolicitud/>
           </Route>
           <Route path="/solicitud/cd3">
             <Cd3 />
@@ -163,6 +217,15 @@ const App: React.FC = () => (
           <Route path="/solicitud/cd3mes3cm">
             <Cd3Mes3Cm />
           </Route>
+          <Route path="/solicitud/cd3mes1cmsolicitud">
+            <Cd3Mes1CmSolicitud />
+          </Route>
+          <Route path="/solicitud/cd3mes2cmsolicitud">
+            <Cd3Mes2CmSolicitud />
+          </Route>
+          <Route path="/solicitud/cd3mes3cmsolicitud">
+            <Cd3Mes3CmSolicitud />
+          </Route>
           <Route path="/solicitud/cd3quincena">
             <Cd3Quincena />
           </Route>
@@ -174,6 +237,15 @@ const App: React.FC = () => (
           </Route>
           <Route path="/solicitud/cd3quincena3cq">
             <Cd3Quincena3Cq/>
+          </Route>
+          <Route path="/solicitud/cd3quincena1cqsolicitud">
+            <Cd3Quincena1CqSolicitud/>
+          </Route>
+          <Route path="/solicitud/cd3quincena2cqsolicitud">
+            <Cd3Quincena2CqSolicitud/>
+          </Route>
+          <Route path="/solicitud/cd3quincena3cqsolicitud">
+            <Cd3Quincena3CqSolicitud/>
           </Route>
           <Route exact path="/">
             <Redirect to="/tab1" />
