@@ -5,7 +5,7 @@ import React from 'react';
 import {  IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonItem, IonLabel  } from '@ionic/react';
 const OpcionesCreditos: React.FC = () => {
     return (
-        <div id='contenedor'>
+        <div id='contenedor_OpcionesCreditos'>
             <div id='center'> <h1>Empecemos 👇</h1></div>
             <IonCard>
                 <IonCardHeader>

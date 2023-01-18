@@ -1,15 +1,15 @@
-import {  chevronForwardCircleOutline } from 'ionicons/icons';
+// import {  chevronForwardCircleOutline } from 'ionicons/icons';
 import './SliderBanner1.css';
-import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle,IonImg, IonIcon, } from '@ionic/react';
+import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle,IonImg,  } from '@ionic/react';
 
 const SliderBanner1: React.FC = () => {
     return (
-        <div id='contenedor'>
+        <div id='contenedor_SliderBanner1'>
             <a   href='/solicitud/soloOpciones'>
             <IonCard>
-                <div id='content_img'> 
+                <div id='content_img_SliderBanner1'> 
                 
-                <IonImg src="/assets/img/prestamos.jpg" id='img'></IonImg>
+                <IonImg src="/assets/img/prestamos.jpg" id='img_SliderBanner1'></IonImg>
                 </div> 
                 
                 <IonCardHeader>
@@ -18,7 +18,7 @@ const SliderBanner1: React.FC = () => {
                 </IonCardHeader>
                 
                 <IonCardContent id='parrafo'>
-                    En nuestra plataforma tratamos de hacer un proceso muy fácil de realizar, fácil de solicitar y fácil de pagar. Desliza a la derecha para continuar. <IonIcon icon={chevronForwardCircleOutline}/>
+                    En nuestra plataforma tratamos de hacer un proceso muy fácil de realizar, fácil de solicitar y fácil de pagar. 
                 </IonCardContent>
             </IonCard>
             </a>

@@ -1,9 +1,10 @@
-import { chevronForwardCircleOutline } from 'ionicons/icons';
+// import { chevronForwardCircleOutline } from 'ionicons/icons';
 import './SliderItems.css';
-import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonItem, IonLabel, IonList, IonThumbnail, IonImg, IonIcon } from '@ionic/react';
+import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonItem, IonLabel, IonList, IonThumbnail, IonImg,  } from '@ionic/react';
 
 const SliderItems: React.FC = () => {
     return (
+        <div id='contenedor_SliderItems'>
         <a   href='/solicitud/soloOpciones'>
         <IonCard>
             <IonCardHeader>
@@ -41,10 +42,10 @@ const SliderItems: React.FC = () => {
                     <IonLabel>Formulario Pagaré</IonLabel>
                 </IonItem>
                 </IonList>
-                <IonCardSubtitle>Desliza a la derecha para continuar. <IonIcon icon={chevronForwardCircleOutline}/></IonCardSubtitle>
             </IonCardContent>
     </IonCard>
     </a>
+    </div>
     );
 };
 export default SliderItems;

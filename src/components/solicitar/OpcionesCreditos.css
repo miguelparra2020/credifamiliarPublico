@@ -1,4 +1,4 @@
-ion-card-header.ios {
-    display: flex;
-    flex-flow: column-reverse;
+#contenedor_OpcionesCreditos{
+    max-width: 400px;
+    text-align: center;
 }
