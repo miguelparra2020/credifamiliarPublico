@@ -11,9 +11,11 @@ const SoloOpciones: React.FC = () => {
         <Toolbar/>
         </IonHeader>
         <IonContent>
-            <div id='contenido_opciones'>
-            <div id='center'> <h1>Empecemos 👇</h1></div>
-            <IonCard id='car_opciones'>
+        <div id="contenido_body">
+            <div id='contenido_div'>
+            
+            <h1>Empecemos 👇</h1>
+            <IonCard >
                 <IonCardHeader>
                     <IonCardTitle>Escoge la mejor opción Acorde a su necesidad</IonCardTitle>
                 </IonCardHeader>
@@ -34,6 +36,7 @@ const SoloOpciones: React.FC = () => {
                     </IonItem>
                 </IonCardContent>
             </IonCard>
+            </div>
         </div>
         </IonContent>
         </IonPage>

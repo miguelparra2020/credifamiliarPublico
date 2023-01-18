@@ -13,8 +13,9 @@ const cd2mes2cm: React.FC = () => {
         <Toolbar/>
         </IonHeader>
         <IonContent fullscreen >
-        <div id="contenido">
-            <IonCard id='car'>
+        <div id="contenido_body">
+            <div id='contenido_div2'>
+            <IonCard >
                 <IonCardHeader>
                     <IonCardTitle>Estas son todas las opciones que escogió:</IonCardTitle>
                 </IonCardHeader>
@@ -66,6 +67,7 @@ const cd2mes2cm: React.FC = () => {
                 <IonLabel>Volver</IonLabel>
             </IonChip>
             </IonButton>
+            </div>
         </div>
         </IonContent>
         </IonPage>
