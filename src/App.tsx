@@ -42,6 +42,9 @@ import Cd2Quincena1Cq from './pages/solicitud/cd2quincena1cq';
 import Cd2Quincena2Cq from './pages/solicitud/cd2quincena2cq';
 import Cd2Quincena3Cq from './pages/solicitud/cd2quincena3cq';
 import Cd3Quincena from './pages/solicitud/cd3quincena';
+import Cd3Quincena1Cq from './pages/solicitud/cd3quincena1cq';
+import Cd3Quincena2Cq from './pages/solicitud/cd3quincena2cq';
+import Cd3Quincena3Cq from './pages/solicitud/cd3quincena3cq';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -162,6 +165,15 @@ const App: React.FC = () => (
           </Route>
           <Route path="/solicitud/cd3quincena">
             <Cd3Quincena />
+          </Route>
+          <Route path="/solicitud/cd3quincena1cq">
+            <Cd3Quincena1Cq/>
+          </Route>
+          <Route path="/solicitud/cd3quincena2cq">
+            <Cd3Quincena2Cq/>
+          </Route>
+          <Route path="/solicitud/cd3quincena3cq">
+            <Cd3Quincena3Cq/>
           </Route>
           <Route exact path="/">
             <Redirect to="/tab1" />

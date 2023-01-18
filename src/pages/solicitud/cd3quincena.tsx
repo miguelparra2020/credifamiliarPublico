@@ -26,15 +26,15 @@ const cd3quincena: React.FC = () => {
                 <IonCardContent>
                     <IonCardSubtitle>Tiene la opción de escoger cuantas cuotas desea pagar:</IonCardSubtitle>
                     <br />
-                    <IonItem href="/solicitud/cd1" color="secondary">
+                    <IonItem href="/solicitud/cd3quincena1cq" color="secondary">
                             <IonLabel>👉 1 cuota quincenal</IonLabel>
                     </IonItem>
                     <br />
-                    <IonItem href="/solicitud/cd1" color="primary">
+                    <IonItem href="/solicitud/cd3quincena2cq" color="primary">
                             <IonLabel>👉 2 cuotas quincenales</IonLabel>
                     </IonItem>
                     <br />
-                    <IonItem href="/solicitud/cd1" color="tertiary">
+                    <IonItem href="/solicitud/cd3quincena3cq" color="tertiary">
                         <IonLabel>👉 3 cuotas quincenales</IonLabel>
                     </IonItem>
                 </IonCardContent>
