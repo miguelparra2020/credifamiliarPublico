@@ -37,26 +37,30 @@ const cd1quincena3cq: React.FC = () => {
                     </IonCard>
                     <IonCardTitle>Con estas opciones usted pagaría:</IonCardTitle>
                     <IonCard>
-                        <IonItem >
+                        <div id='items'>
                                 <IonIcon icon={ellipse}/>
                                 <IonLabel>Valor a Capital: $33.333</IonLabel>
-                        </IonItem>
-                        <IonItem >
+                        </div>
+                        <div id='linea'></div>
+                        <div id='items'>
                                 <IonIcon icon={ellipse}/>
                                 <IonLabel>Costos administrativos: $5.000</IonLabel>
-                        </IonItem>
-                        <IonItem >
+                        </div>
+                        <div id='linea'></div>
+                        <div id='items'>
                             <IonIcon icon={ellipse}/>
                             <IonLabel>Costos plataforma: $3.000</IonLabel>
-                        </IonItem>
-                        <IonItem >
+                        </div>
+                        <div id='linea'></div>
+                        <div id='items'>
                             <IonIcon icon={ellipse}/>
                             <IonLabel>Interés: $2.167</IonLabel>
-                        </IonItem>
-                        <IonItem >
+                        </div>
+                        <div id='linea'></div>
+                        <div id='items'>
                         <IonIcon icon={checkbox} color="primary"/>
                             <IonLabel>3 cuotas quincenales de: $43.500</IonLabel>
-                        </IonItem>
+                        </div>
                     </IonCard>
                     <IonButton color="primary" expand="full">Hacer Solicitud</IonButton>
                 </IonCardContent>

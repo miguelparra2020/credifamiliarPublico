@@ -37,26 +37,31 @@ const cd1quincena1cq: React.FC = () => {
                     </IonCard>
                     <IonCardTitle>Con estas opciones usted pagaría:</IonCardTitle>
                     <IonCard>
-                        <IonItem >
+                        <div id='items'>
                                 <IonIcon icon={ellipse}/>
                                 <IonLabel>Valor a Capital: $100.000</IonLabel>
-                        </IonItem>
-                        <IonItem >
+                        </div>
+                        <div id='linea'></div>
+                        <div id='items'>
                                 <IonIcon icon={ellipse}/>
                                 <IonLabel>Costos administrativos: $5.000</IonLabel>
-                        </IonItem>
-                        <IonItem >
+                        </div>
+                        <div id='linea'></div>
+                        <div id='items'>
                             <IonIcon icon={ellipse}/>
-                            <IonLabel>Costos plataforma: $3.000</IonLabel>
-                        </IonItem>
-                        <IonItem >
+                            <IonLabel>Costos plataforma: 
+                            $3.000</IonLabel>
+                        </div>
+                        <div id='linea'></div>
+                        <div id='items'>
                             <IonIcon icon={ellipse}/>
                             <IonLabel>Interés: $2.000</IonLabel>
-                        </IonItem>
-                        <IonItem >
+                        </div>
+                        <div id='linea'></div>
+                        <div id='items'>
                         <IonIcon icon={checkbox} color="primary"/>
                             <IonLabel>1 cuota quincenal de: $110.000</IonLabel>
-                        </IonItem>
+                        </div>
                     </IonCard>
                     <IonButton color="primary" expand="full">Hacer Solicitud</IonButton>
                 </IonCardContent>

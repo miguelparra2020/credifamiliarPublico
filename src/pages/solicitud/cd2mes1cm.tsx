@@ -37,26 +37,30 @@ const cd2mes1cm: React.FC = () => {
                     </IonCard>
                     <IonCardTitle>Con estas opciones usted pagaría:</IonCardTitle>
                     <IonCard>
-                        <IonItem >
+                        <div id='items'>
                                 <IonIcon icon={ellipse}/>
                                 <IonLabel>Valor a Capital: $200.000</IonLabel>
-                        </IonItem>
-                        <IonItem >
+                        </div>
+                        <div id='linea'></div>
+                        <div id='items'>
                                 <IonIcon icon={ellipse}/>
                                 <IonLabel>Costos administrativos: $20.000</IonLabel>
-                        </IonItem>
-                        <IonItem >
+                        </div>
+                        <div id='linea'></div>
+                        <div id='items'>
                             <IonIcon icon={ellipse}/>
                             <IonLabel>Costos plataforma: $12.000</IonLabel>
-                        </IonItem>
-                        <IonItem >
+                        </div>
+                        <div id='linea'></div>
+                        <div id='items'>
                             <IonIcon icon={ellipse}/>
                             <IonLabel>Interés: $8.000</IonLabel>
-                        </IonItem>
-                        <IonItem >
+                        </div>
+                        <div id='linea'></div>
+                        <div id='items'>
                         <IonIcon icon={checkbox} color="primary"/>
                             <IonLabel>1 cuota mensual de: $240.000</IonLabel>
-                        </IonItem>
+                        </div>
                     </IonCard>
                     <IonButton color="primary" expand="full">Hacer Solicitud</IonButton>
                 </IonCardContent>
