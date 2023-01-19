@@ -22,6 +22,7 @@
     "history": "^4.9.0",
     "ionicons": "^6.0.3",
     "react": "^18.2.0",
+    "react-canvas-draw": "^1.2.1",
     "react-dom": "^18.2.0",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
@@ -66,7 +67,8 @@
     ]
   },
   "devDependencies": {
-    "@capacitor/cli": "4.6.1"
+    "@capacitor/cli": "4.6.1",
+    "@types/react-canvas-draw": "^1.2.0"
   },
   "description": "An Ionic project"
 }

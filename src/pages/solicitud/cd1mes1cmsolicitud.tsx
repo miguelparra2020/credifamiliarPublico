@@ -7,9 +7,11 @@ import Toolbar from '../../components/Toolbar';
 import { arrowUndoCircleOutline, } from 'ionicons/icons';
 import { IonProgressBar } from '@ionic/react';
 
+import CanvasDraw from "react-canvas-draw";
 
 
 const cd1mes1cmsolicitud: React.FC = () => {
+    
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const [progress, setProgress] = useState(0);
 
@@ -28,9 +30,15 @@ setTimeout(() => {
 }, 1000);
 }
 
+
+
+
+
     return (
         <IonPage>
+            
         <IonHeader>
+            
         <Toolbar/>
         </IonHeader>
         
@@ -147,9 +155,11 @@ setTimeout(() => {
                 <IonInput type="text" ></IonInput>
                 </IonItem>
             </IonCard>
-            
+            <CanvasDraw />
             </div>
         </div>
+        
+    
         </IonContent>
         </IonPage>
     );
