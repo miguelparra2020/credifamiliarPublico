@@ -4,6 +4,7 @@ import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle,I
 
 const SliderBanner1: React.FC = () => {
     return (
+        <div id='contenido_cards'>
         <div id='contenedor_SliderBanner1'>
             <a   href='/solicitud/soloOpciones'>
             <IonCard>
@@ -22,6 +23,7 @@ const SliderBanner1: React.FC = () => {
                 </IonCardContent>
             </IonCard>
             </a>
+        </div>
         </div>
     );
 };

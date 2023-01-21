@@ -11,6 +11,8 @@ import Filosofia from '../components/Inicio/filosofia';
 import BannerOpciones from '../components/Inicio/BannerOpciones';
 import Procesos from '../components/Inicio/Procesos';
 import Footer from '../components/Footer';
+import SliderBanner1 from '../components/solicitar/SliderBanner1';
+import SliderItems from '../components/solicitar/SliderItems';
 
 
 const Tab1: React.FC = () => {
@@ -42,6 +44,8 @@ const Tab1: React.FC = () => {
         {/* proceso del prestamo */}
         <Procesos/>
         {/* proceso del prestamo */}
+        <SliderBanner1/>
+        <SliderItems/>
         {/* Footer */}
         <Footer/>
         {/* Footer */}

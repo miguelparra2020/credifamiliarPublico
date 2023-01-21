@@ -96,7 +96,6 @@
 }
 @media (max-width: 600px){ 
     #centro_contenedor_proceso{
-        height: 100vh;
         width: 95%;
     }
     #titulo_proceso{

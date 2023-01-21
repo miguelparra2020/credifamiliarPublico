@@ -4,6 +4,7 @@ import { IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, 
 
 const SliderItems: React.FC = () => {
     return (
+        <div id='contenido_cards'>
         <div id='contenedor_SliderItems'>
         <a   href='/solicitud/soloOpciones'>
         <IonCard>
@@ -45,6 +46,7 @@ const SliderItems: React.FC = () => {
             </IonCardContent>
     </IonCard>
     </a>
+    </div>
     </div>
     );
 };
