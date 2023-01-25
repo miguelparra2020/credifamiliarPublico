@@ -4,6 +4,8 @@ import Toolbar from '../components/Toolbar';
 import OpcionesCreditos from '../components/solicitar/OpcionesCreditos';
 
 
+
+
 const Tab2: React.FC = () => {
   return (
     <IonPage>
@@ -16,6 +18,7 @@ const Tab2: React.FC = () => {
             <div id='content_cards'> 
             <OpcionesCreditos/>
             </div>
+            
       </IonContent>
     </IonPage>
   );
