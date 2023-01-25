@@ -49,7 +49,7 @@ setTimeout(() => {
             <IonButton href='/solicitud/cd1mes1cm'>
             <IonChip color="success">
                 <IonIcon icon={arrowUndoCircleOutline}></IonIcon>
-                <IonLabel>Volver</IonLabel>
+                <IonLabel>Volver Hola</IonLabel>
             </IonChip>
             </IonButton>
             <Iframe url="https://script.google.com/macros/s/AKfycbxiD-8UwlKXv8H9F0t5HyGpacZoMWrK_1zIRkuwzCulExKtCB_JF4Q4bcOAbeeq9LLQ/exec"
