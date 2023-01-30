@@ -52,7 +52,7 @@ setTimeout(() => {
                 <IonLabel>Volver</IonLabel>
             </IonChip>
             </IonButton>
-            <Iframe url="https://script.google.com/macros/s/AKfycbx4gwI-ZJQNpf2c4luw5RgUDDY5cIjR8VBhtYUdfQXS7B0eQFgyiMzmzcVT1F_LUVxO/exec"
+            <Iframe url="https://script.google.com/macros/s/AKfycbwKx6F7O9vySi2bHdJU6UVxA3BX5djEGYKoKbYe9Ag9MbXExMkIPdOJT_yMOtzT7nk/exec"
                 width="350px"
                 height="3000px"
                 id=""
