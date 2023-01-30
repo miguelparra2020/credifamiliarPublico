@@ -54,7 +54,7 @@ setTimeout(() => {
             </IonButton>
             <Iframe url="https://script.google.com/macros/s/AKfycbyMrSgfDluMjRKIUw0WGttEVwzIePi-WSSAIJ0D3JA0cBOBE2IdvX1q11vlssTi4LVQ7g/exec"
                 width="350px"
-                height="2600px"
+                height="2800px"
                 id=""
                 allowFullScreen 
                 styles={{border: "0px"}}
