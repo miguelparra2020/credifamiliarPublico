@@ -63,6 +63,9 @@ import Cd3Quincena3Cq from './pages/solicitud/cd3quincena3cq';
 import Cd3Quincena1CqSolicitud from './pages/solicitud/cd3quincena1cqsolicitud';
 import Cd3Quincena2CqSolicitud from './pages/solicitud/cd3quincena2cqsolicitud';
 import Cd3Quincena3CqSolicitud from './pages/solicitud/cd3quincena3cqsolicitud';
+import MediosDePago from './pages/mediosPago/mediosDePago';
+import AdjuntarComprobante from './pages/mediosPago/adjuntarComprobante';
+
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -246,6 +249,12 @@ const App: React.FC = () => (
           </Route>
           <Route path="/solicitud/cd3quincena3cqsolicitud">
             <Cd3Quincena3CqSolicitud/>
+          </Route>
+          <Route path="/mediosPago/mediosDePago">
+            <MediosDePago/>
+          </Route>
+          <Route path="/mediosPago/adjuntarComprobante">
+            <AdjuntarComprobante/>
           </Route>
           <Route exact path="/">
             <Redirect to="/tab1" />
