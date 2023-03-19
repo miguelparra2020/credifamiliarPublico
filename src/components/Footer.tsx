@@ -1,7 +1,6 @@
 import { IonButton } from '@ionic/react';
 import './Footer.css';
-// import { IonIcon} from '@ionic/react';
-// import {  flagOutline } from 'ionicons/icons';
+import {NombreEmpresa} from './variables'
 const Footer: React.FC = () => {
     return (
         <div id='footer_content'>
@@ -18,10 +17,9 @@ const Footer: React.FC = () => {
                 <div>
                 Copy right: 
                 <IonButton href="/Terminos" id="miguel_page">
-                Credifast
+                {NombreEmpresa}
                 </IonButton>
                 · All rights reserved.
-                
                 </div>
             </div>
         </div>
